@@ -28,7 +28,7 @@ Na primeira vez, o Windows pode mostrar o aviso azul do SmartScreen: clique em *
 
 ## Atualizações
 
-O Maestro se atualiza sozinho: ele confere os releases deste repositório ao abrir e a cada 6 horas, baixa a versão nova, confere o arquivo e reinicia. Para conferir na hora, use **Procurar atualização** no menu do ícone perto do relógio.
+O Maestro se atualiza sozinho: ele confere os releases deste repositório ao abrir e uma vez por dia, baixa a versão nova, confere o arquivo e reinicia. Para conferir na hora, use **Procurar atualização** no menu do ícone perto do relógio.
 
 ## Requisitos
 
