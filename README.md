@@ -30,6 +30,12 @@ Na primeira vez, o Windows pode mostrar o aviso azul do SmartScreen: clique em *
 
 O Maestro se atualiza sozinho: ele confere os releases deste repositório ao abrir e uma vez por dia, baixa a versão nova, confere o arquivo e reinicia. Para conferir na hora, use **Procurar atualização** no menu do ícone perto do relógio.
 
+## Desinstalar
+
+Em **Configurações > Aplicativos > Aplicativos instalados**, procure **Maestro** e clique em **Desinstalar**. Ou dê dois cliques no **Desinstalar.cmd**, que fica em `%USERPROFILE%\Maestro`.
+
+O desinstalador fecha o Maestro e tira só os hooks dele das configurações do Claude Code (os seus ficam, e é feito um backup antes). Também tira o atalho de inicialização e a pasta do programa. Antes de apagar suas configurações e o histórico das sessões, ele pergunta. O .NET 10 fica instalado, porque outros programas podem usar.
+
 ## Requisitos
 
 - Windows 10 ou 11 (64 bits)
